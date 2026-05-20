@@ -1,0 +1,79 @@
+Touchless Door Bell Using IR Sensor – Project Report
+
+Introduction
+
+A touchless doorbell is an electronic system that allows a person to ring a bell without physically pressing a switch. This project uses an IR (Infrared) sensor to detect the presence of a hand near the sensor. When the hand is detected, the sensor sends a signal to activate a buzzer or bell.
+This system is useful for maintaining hygiene and reducing the spread of germs because no physical contact is required. It is commonly used in homes, hospitals, offices, and public places.
+
+
+Objective of the Project
+
+To design a touch-free doorbell system using an IR sensor.
+To reduce physical contact with doorbell switches.
+To understand the working of IR sensors and electronic circuits.
+To build a simple, low-cost, and efficient automation project.
+
+
+Components Required
+
+Component Name
+
+IR Sensor Module
+Buzzer
+Transistor (BC547 or similar)
+Resistor (1kΩ)
+Battery / 5V Power Supply
+Breadboard
+Connecting Wires
+As required
+
+Basic Connections
+
+-Connect VCC of IR sensor to +5V supply.
+-Connect GND of IR sensor to ground.
+-Connect OUT pin of IR sensor to the base of transistor through a resistor.
+-Connect buzzer to collector terminal of transistor.
+Emitter terminal is connected to ground.
+-Power the circuit using a battery or adapter.
+
+
+Working Principle
+
+•The IR sensor consists of an IR transmitter and an IR receiver.
+•The IR transmitter continuously emits infrared rays.
+•When a hand comes near the sensor, the IR rays reflect back.
+•The IR receiver detects the reflected rays.
+•The sensor output becomes HIGH.
+•The transistor gets activated and allows current to flow.
+•The buzzer rings like a doorbell.
+•Thus, the doorbell works without touching any swi
+
+Applications
+
+-Smart homes
+-Hospitals and clinics
+-Offices and schools
+-Public places
+-Hygiene-sensitive -environments
+-Automatic visitor alert systems
+
+Advantages
+
+-Completely touch-free operation
+-Hygienic and safe
+-Low power consumption
+-Easy to build and -maintain Low cost
+-Fast response
+
+Future Improvements
+
+Add a wireless notification system.
+Connect with IoT for mobile alerts.
+Add voice recording feature.
+Use rechargeable battery backup.
+Integrate with smart home automation systems.
+Add camera and motion detection for security.
+
+Conclusion
+
+The touchless doorbell using an IR sensor is a simple and useful electronic project. It helps maintain cleanliness and reduces physical contact. The project demonstrates the practical application of IR sensors and basic electronic components in automation systems.
