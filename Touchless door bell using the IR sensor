@@ -1,1 +1,23 @@
-# Touchless_doorbell_using_the_IR_sensor
+int irSensor = 2;
+int buzzer = 8;
+int led = 13;
+
+void setup() {
+  pinMode(irSensor, INPUT);
+  pinMode(buzzer, OUTPUT);
+  pinMode(led, OUTPUT);
+}
+
+void loop() {
+  int sensorValue = digitalRead(irSensor);
+
+  if(sensorValue == LOW) {
+    digitalWrite(buzzer, HIGH);
+    digitalWrite(led, HIGH);
+    delay(1000);
+  }
+  else {
+    digitalWrite(buzzer, LOW);
+    digitalWrite(led, LOW);
+  }
+}
